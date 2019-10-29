@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+.pika {
+  height: 200px;
+  opacity: .5;
+}
+
+.photo {
+  height: 500px;
+}
