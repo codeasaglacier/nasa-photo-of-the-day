@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="App">
       <Page>
-        <h2 className='title'>codeasaglacier's 'NASA Astronomy Photo Of the Day</h2>
+        <h2 className='title'>codeasaglacier's NASA Astronomy Photo Of the Day</h2>
         <Pika src='https://i.kym-cdn.com/photos/images/original/001/431/201/40f.png' alt='Shocked Pikachu'/>
         <APOD src={photo} alt="pretty space stuff"/>
       </Page>
