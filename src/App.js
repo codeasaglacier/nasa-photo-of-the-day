@@ -1,8 +1,32 @@
 import React, { useState, useEffect }from "react";
 import "./App.css";
 import axios from 'axios';
+import Styled from 'styled-components';
 
+const Page = Styled.div`
+text-shadow: 0 0 2px #fff,
+1px 1px 2px #fff,
+0 1px 2px #fff,
+1px 0 2px #fff;
+`
+const Pika = Styled.img`
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+opacity: .1;
+height: 100vh;
+width: 100vw;
+`
+const APOD = Styled.img`
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+height: 100vh;
+width: 100vw;
 
+`
 
 function App() {
   
@@ -24,11 +48,11 @@ function App() {
 
   return (
     <div className="App">
-
-
-      <h2 className='title'>NASA Astronomy Photo Of the Day</h2>
-      <img className='pika' src='https://i.kym-cdn.com/photos/images/original/001/431/201/40f.png' alt='Shocked Pikachu'/>
-      <img className='photo' src={photo} alt="pretty space stuff"/>
+      <Page>
+        <h2 className='title'>NASA Astronomy Photo Of the Day</h2>
+        <Pika src='https://i.kym-cdn.com/photos/images/original/001/431/201/40f.png' alt='Shocked Pikachu'/>
+        <APOD src={photo} alt="pretty space stuff"/>
+      </Page>
     </div>
   );
 }
