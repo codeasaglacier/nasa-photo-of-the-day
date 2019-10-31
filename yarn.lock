@@ -6851,6 +6851,11 @@ raf@3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
+random-date-generator@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/random-date-generator/-/random-date-generator-1.0.2.tgz#c636665bbfed08cec9e22053d49f233c8fd84dd1"
+  integrity sha1-xjZmW7/tCM7J4iBT1J8jPI/YTdE=
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
