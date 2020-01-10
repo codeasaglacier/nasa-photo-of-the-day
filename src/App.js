@@ -5,7 +5,7 @@ import Styled from 'styled-components';
 import DateGenerator from 'random-date-generator';
 
 const Page = Styled.div`
-
+background: none;
 `
 
 // const Title = Styled.div`
@@ -39,10 +39,11 @@ bottom: 0;
 display: flex;
 justify-content: center;
 flex-direction: column;
-text-shadow: -1px -1px 2px #fff,
-1px 1px 2px #fff,
-1px -1px 2px #fff,
--1px 1px 2px #fff;
+color: white;
+text-shadow: -1px -1px 2px #000,
+1px 1px 2px #000,
+1px -1px 2px #000,
+-1px 1px 2px #000;
 `
 
 
